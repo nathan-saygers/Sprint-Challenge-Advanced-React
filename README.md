@@ -22,11 +22,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Why would you use class component over function components (removing hooks from the question)?
+- [ ] Why would you use class component over function components (removing hooks from the question)? 
+  - Aside from their prominence "in the wild" they might be useful have more explicit control over state rather than using a hook.  
 - [ ] Name three lifecycle methods and their purposes.
+  -componentShouldMount: Allows us to specify whether or not an action takes place on render
+  -componentDidMount: phase of the lifecycle where components render onto the DOM
+  -componentDidUpdate: phase where components re-render onto the DOM if needed
 - [ ] What is the purpose of a custom hook?
+  -The State hook is useful because calling and updating state is frequently necessary.  Similarly, custom hooks make frequently used functionality easily accessable across components.
 - [ ] Why is it important to test our apps?
-
+  -So that we find bugs and edge cases before our users do
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
