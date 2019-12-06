@@ -24,8 +24,3 @@ it('Alex Morgan renders', () => {
   findByText(/united\ states/i);
 })
 
-// it('Alex Morgan renders', () => {
-//   const {getByDisplayValue} = render(<App />)
-//   const textValue = 'Alex Morgan';
-//   getByDisplayValue(textValue);
-// })
